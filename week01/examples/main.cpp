@@ -13,6 +13,7 @@ int main()
 
     result = mul(a, b);
 
+    
     cout << "The result is " << result << endl;
     return 0;
 }
