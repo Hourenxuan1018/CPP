@@ -6,8 +6,7 @@ template<typename T>
 T sum(T x, T y)
 {
     cout << "The input type is " << typeid(T).name() << endl;
-    return x +
-     y;
+    return x + y;
 }
 // Explicitly instantiate
 template double sum<double>(double, double);
