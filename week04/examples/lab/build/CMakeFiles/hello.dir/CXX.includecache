@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/factorial.cpp
+functions.h
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/functions.h
+
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/functions.h
+
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/main.cpp
+iostream
+-
+functions.h
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/functions.h
+
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/printhello.cpp
+iostream
+-
+functions.h
+/home/morty/Desktop/Morty_Cpp/CPP/week04/examples/lab/functions.h
+
