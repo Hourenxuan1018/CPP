@@ -74,21 +74,21 @@ int main()
     yu.setGender(true);
     yu.printInfo();
 
-    Student li("li");
-    li.printInfo();
+    // Student li("li");
+    // li.printInfo();
 
-    Student xue = Student("XueQikun", 1962, true);
-    //a question: what will happen since "XueQikun" has 4+ characters?
-    xue.printInfo();
+    // Student xue = Student("XueQikun", 1962, true);
+    // //a question: what will happen since "XueQikun" has 4+ characters?
+    // xue.printInfo();
 
-    Student * zhou =  new Student("Zhou", 1991, false);
-    zhou->printInfo();
-    delete zhou;
+    // Student * zhou =  new Student("Zhou", 1991, false);
+    // zhou->printInfo();
+    // delete zhou;
 
-    Student * s =  new Student();
-    // Student * s =  new Student; // the same
-    s->printInfo();
-    delete s;
+    // Student * s =  new Student();
+    // // Student * s =  new Student; // the same
+    // s->printInfo();
+    // delete s;
 
     return 0;
 }
